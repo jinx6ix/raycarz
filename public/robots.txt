@@ -1,0 +1,22 @@
+# RAYCARZ Tours & Safaris - Robots.txt
+# Allow all crawlers to access the website
+
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+Disallow: /*.json$
+Disallow: /private/
+
+# Specific rules for Google
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# Specific rules for Bing
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 0
+
+# Reference to sitemap
+Sitemap: https://safaris-eastafrica.com/sitemap.xml

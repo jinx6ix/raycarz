@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@layer base {
+  :root {
+    /* African Safari Color Palette */
+    --background: 0 0% 98%;
+    --foreground: 25 30% 15%;
+    --card: 0 0% 100%;
+    --card-foreground: 25 30% 15%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 25 30% 15%;
+    /* Primary: Deep Brown (Safari earth tone) */
+    --primary: 25 35% 25%;
+    --primary-foreground: 0 0% 98%;
+    /* Secondary: Golden tan */
+    --secondary: 35 45% 55%;
+    --secondary-foreground: 25 30% 15%;
+    /* Muted: Light beige */
+    --muted: 35 25% 92%;
+    --muted-foreground: 25 20% 45%;
+    /* Accent: Wildlife green */
+    --accent: 140 40% 45%;
+    --accent-foreground: 0 0% 100%;
+    /* Destructive */
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    /* Borders and inputs */
+    --border: 35 25% 92%;
+    --input: 35 25% 92%;
+    --ring: 140 40% 45%;
+    /* Chart colors for safari theme */
+    --chart-1: 25 35% 35%;
+    --chart-2: 35 45% 55%;
+    --chart-3: 140 40% 45%;
+    --chart-4: 15 55% 60%;
+    --chart-5: 55 40% 50%;
+    --radius: 0.5rem;
+    --sidebar-background: 25 35% 25%;
+    --sidebar-foreground: 0 0% 98%;
+    --sidebar-primary: 35 45% 55%;
+    --sidebar-primary-foreground: 25 30% 15%;
+    --sidebar-accent: 140 40% 45%;
+    --sidebar-accent-foreground: 0 0% 100%;
+    --sidebar-border: 25 25% 35%;
+    --sidebar-ring: 140 40% 45%;
+  }
+  .dark {
+    --background: 25 30% 12%;
+    --foreground: 35 20% 92%;
+    --card: 25 30% 18%;
+    --card-foreground: 35 20% 92%;
+    --popover: 25 30% 18%;
+    --popover-foreground: 35 20% 92%;
+    --primary: 35 45% 55%;
+    --primary-foreground: 25 30% 15%;
+    --secondary: 25 35% 35%;
+    --secondary-foreground: 35 20% 92%;
+    --muted: 25 20% 30%;
+    --muted-foreground: 35 20% 70%;
+    --accent: 140 50% 50%;
+    --accent-foreground: 25 30% 15%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 25 20% 30%;
+    --input: 25 20% 30%;
+    --ring: 140 50% 50%;
+    --chart-1: 35 45% 55%;
+    --chart-2: 140 40% 45%;
+    --chart-3: 15 55% 60%;
+    --chart-4: 55 40% 50%;
+    --chart-5: 25 35% 35%;
+    --sidebar-background: 25 30% 12%;
+    --sidebar-foreground: 35 20% 92%;
+    --sidebar-primary: 140 50% 50%;
+    --sidebar-primary-foreground: 25 30% 15%;
+    --sidebar-accent: 35 45% 55%;
+    --sidebar-accent-foreground: 25 30% 15%;
+    --sidebar-border: 25 20% 30%;
+    --sidebar-ring: 140 50% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}

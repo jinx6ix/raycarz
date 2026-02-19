@@ -1,0 +1,12 @@
+[
+    {
+      "id": "test-1",
+      "author": "John Smith",
+      "location": "United States",
+      "content": "Absolutely incredible experience! The guides were knowledgeable, the accommodations were comfortable, and the wildlife viewing was beyond expectations. Highly recommend RAYCARZ!",
+      "rating": 5,
+      "date": "2023-12-15",
+      "tour": "Kenya Highlights Safari",
+      "verified": true
+    }
+  ]

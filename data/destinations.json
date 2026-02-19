@@ -1,0 +1,62 @@
+[
+  {
+    "id": "kenya",
+    "name": "Kenya",
+    "country": "Kenya",
+    "slug": "kenya",
+    "description": "Kenya is home to some of Africa's most iconic safari destinations including Masai Mara, Amboseli, and Tsavo. Known for Big Five wildlife, wildebeest migration, and diverse landscapes from savanna to highlands. Kenya offers excellent budget safari options and is a gateway to East African wildlife adventures.",
+    "fullDescription": "Kenya is the ultimate Big Five Safari destination in East Africa. Home to iconic Masai Mara National Reserve, Kenya offers world-class wildlife viewing experiences. See lions, leopards, elephants, buffalo, and rhinos in their natural habitat. Masai Mara is famous for the annual Great Wildebeest Migration featuring 1.5 million animals. Amboseli National Park offers stunning Mount Kilimanjaro backdrop views with large elephant populations. Tsavo National Park, the world's largest game reserve, features unique red elephants. Kenya offers diverse safari experiences from budget camping to luxury lodge stays. Perfect destination for first-time and experienced safari travelers seeking authentic African wildlife adventures.",
+    "bestSeason": "June-October, December-March",
+    "highlights": ["Big Five Safari", "Masai Mara Migration", "Mount Kenya", "Amboseli with Kilimanjaro Views", "Wildlife Photography"],
+    "wildlife": ["Lions", "Leopards", "Elephants", "Buffalo", "Rhinos", "Zebras", "Wildebeest", "Giraffes", "Cheetahs"],
+    "keywords": ["Big Five Safari Kenya", "Cheap Safaris Kenya", "Masai Mara Safari", "Kenya Wildlife Tour", "Kenyan Safari"],
+    "longTailKeywords": ["Best Big Five Safari Kenya", "Affordable Kenya Safari Packages", "Kenya Wildlife Photography"],
+    "featuredTours": ["big-five-safari-masai-mara", "amboseli-national-park-safari", "tsavo-east-national-park-safari", "cheap-safari-package-kenya", "photography-safari-kenya"],
+    "image": "/kenya.jpg"
+  },
+  {
+    "id": "tanzania",
+    "name": "Tanzania",
+    "country": "Tanzania",
+    "slug": "tanzania",
+    "description": "Tanzania is renowned for the Great Wildebeest Migration in Serengeti, the spectacular Ngorongoro Crater, and Mount Kilimanjaro. This East African nation offers diverse safari experiences from wildlife viewing to mountain climbing.",
+    "fullDescription": "Tanzania is home to the world-famous Serengeti Great Migration and stunning Ngorongoro Crater. This destination offers unparalleled wildlife viewing with 1.5 million wildebeest and hundreds of thousands of zebras migrating annually across the Serengeti plains. Witness the dramatic river crossings where predators await. The Ngorongoro Crater is the world's largest intact caldera, featuring an enclosed ecosystem with high wildlife concentrations. Mount Kilimanjaro, Africa's highest peak, towers over the landscape offering both climbing and photography opportunities. Tanzania combines safari, trekking, and adventure in one incredible destination.",
+    "bestSeason": "June-October, November-December",
+    "highlights": ["Wildebeest Migration", "Serengeti Safari", "Ngorongoro Crater", "Mount Kilimanjaro", "Tarangire National Park"],
+    "wildlife": ["Wildebeest", "Zebras", "Lions", "Cheetahs", "Elephants", "Leopards", "Buffalo", "Giraffes", "Hyenas"],
+    "keywords": ["Serengeti Great Migration", "Tanzania Safaris", "Wildebeest Migration", "Ngorongoro Crater", "Kilimanjaro Trek"],
+    "longTailKeywords": ["Best Serengeti Migration Tour", "Kilimanjaro Climb Tanzania", "Ngorongoro Crater Safari"],
+    "featuredTours": ["wildebeest-migration-serengeti", "ngorongoro-crater-adventure", "kilimanjaro-trekking", "tarangire-national-park-safari", "lake-natron-flamingo-safari"],
+    "image": "/tanzania.jpg"
+  },
+  {
+    "id": "uganda",
+    "name": "Uganda",
+    "country": "Uganda",
+    "slug": "uganda",
+    "description": "Uganda is the ultimate gorilla trekking destination, home to mountain gorillas in Bwindi Impenetrable Forest. This East African nation also offers stunning national parks like Queen Elizabeth and Murchison Falls.",
+    "fullDescription": "Uganda, the 'Jewel of Africa,' is renowned for gorilla and primate trekking experiences. Bwindi Impenetrable Forest is home to nearly 50% of the world's remaining mountain gorillas - an encounter not to be missed. Trek through misty rainforests to observe these endangered creatures in their natural habitat. Uganda also features diverse safaris including Queen Elizabeth National Park and Murchison Falls. Less crowded than other East African destinations, Uganda offers authentic, immersive wildlife experiences. The landscape ranges from dense forests to savannas to crater lakes.",
+    "bestSeason": "Year-round (best: December-February, June-August)",
+    "highlights": ["Mountain Gorilla Trekking", "Bwindi Forest", "Queen Elizabeth National Park", "Murchison Falls", "Primate Encounters"],
+    "wildlife": ["Mountain Gorillas", "Chimpanzees", "Lions", "Elephants", "Hippos", "Antelopes", "Various Primates", "200+ Bird Species"],
+    "keywords": ["Uganda Gorilla Trek", "Bwindi Impenetrable Forest", "Mountain Gorillas", "Uganda Safari", "Queen Elizabeth National Park"],
+    "longTailKeywords": ["Best Mountain Gorilla Trek Uganda", "Bwindi Forest Gorilla Experience", "Uganda Wildlife Adventure"],
+    "featuredTours": ["gorilla-trekking-uganda", "queen-elizabeth-national-park-safari", "murchison-falls-uganda-safari", "kaziranda-national-park-safari"],
+    "image": "/uganda.jpg"
+  },
+  {
+    "id": "rwanda",
+    "name": "Rwanda",
+    "country": "Rwanda",
+    "slug": "rwanda",
+    "description": "Rwanda is known as the 'Land of a Thousand Hills' and offers premium gorilla trekking in Volcanoes National Park, wildlife viewing in Akagera National Park, and relaxation at scenic Lake Kivu.",
+    "fullDescription": "Rwanda, the 'Land of a Thousand Hills,' is synonymous with mountain gorilla trekking in Volcanoes National Park. This small but biodiverse nation offers exceptional wildlife experiences with minimal tourist crowds. Volcanoes National Park features habituated mountain gorilla families living in lush volcanic forests. Beyond gorillas, trek for endangered golden monkeys, explore scenic volcanic landscapes. Lake Kivu offers relaxation opportunities combining adventure with leisure. Rwanda is known for its pristine wilderness, professional guides, and high-quality accommodations.",
+    "bestSeason": "June-September, December-February",
+    "highlights": ["Mountain Gorillas", "Volcanoes National Park", "Akagera Safari", "Lake Kivu Relaxation", "Golden Monkeys"],
+    "wildlife": ["Mountain Gorillas", "Golden Monkeys", "Lions", "Elephants", "Buffalo", "Antelopes", "Various Primates", "100+ Bird Species"],
+    "keywords": ["Rwanda Gorilla Trek", "Volcanoes National Park", "Rwanda Safari", "Akagera National Park", "Lake Kivu"],
+    "longTailKeywords": ["Best Mountain Gorilla Trek Rwanda", "Volcanoes National Park Safari", "Rwanda Romantic Getaway"],
+    "featuredTours": ["rwanda-gorilla-volcanoes", "akagera-national-park-safari", "lake-kivu-rwanda-tour", "kibuye-resort-rwanda"],
+    "image": "/rwanda.jpg"
+  }
+]

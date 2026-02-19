@@ -1,0 +1,142 @@
+{
+  "general": [
+    {
+      "question": "What is the best time to visit East Africa for safari?",
+      "answer": "The best time for East African safaris is during the dry seasons: July-October (Great Migration season in Serengeti) and December-March. However, different parks have different peak seasons, and wildlife viewing is excellent year-round."
+    },
+    {
+      "question": "Do I need a visa for East African countries?",
+      "answer": "Visa requirements vary by nationality and country. Kenya, Tanzania, Uganda, and Rwanda offer e-visas or visas on arrival for most nationalities. We recommend checking your country's requirements with the respective embassies before travel."
+    },
+    {
+      "question": "What vaccinations do I need for an African safari?",
+      "answer": "Common recommended vaccinations include Yellow Fever, Malaria prophylaxis, Typhoid, Hepatitis A, and DPT. Consult your doctor 4-6 weeks before travel for personalized recommendations based on your travel plans."
+    },
+    {
+      "question": "Is safari safe for children?",
+      "answer": "Yes, safari is safe for children. Many tours offer family-friendly options with shorter driving distances and child-appropriate activities. Children must be comfortable with vehicle rides and following safety protocols."
+    },
+    {
+      "question": "What should I pack for a safari?",
+      "answer": "Pack neutral-colored clothing (earth tones), comfortable walking shoes, hat, sunscreen, binoculars, camera, insect repellent, and layers for cool mornings/evenings. Avoid bright colors that may startle animals."
+    },
+    {
+      "question": "How many days do I need for a safari?",
+      "answer": "Minimum 3-4 days for shorter safaris, 7-10 days for comprehensive tours covering multiple parks. Longer safaris provide better chances of seeing diverse wildlife and experiencing multiple ecosystems."
+    },
+    {
+      "question": "Are Big Five animals guaranteed to be seen?",
+      "answer": "While Big Five animals exist in all our safari areas, sightings are not guaranteed as animals are wild. However, our experienced guides significantly increase your chances of seeing them, especially with longer tours."
+    },
+    {
+      "question": "What is included in the safari price?",
+      "answer": "Typically included: accommodation, meals, game drives with professional guides, park entrance fees, and internal transportation. Not included: international flights, travel insurance, visas, and tips."
+    }
+  ],
+  "booking": [
+    {
+      "question": "How far in advance should I book a safari?",
+      "answer": "We recommend booking 2-3 months in advance for better availability and pricing. However, last-minute bookings may be accommodated depending on availability."
+    },
+    {
+      "question": "What is your cancellation policy?",
+      "answer": "Cancellations made 30+ days before travel receive a full refund. Cancellations 15-29 days before receive 50% refund. Cancellations less than 15 days are non-refundable. Travel insurance is strongly recommended."
+    },
+    {
+      "question": "Do you offer custom safari packages?",
+      "answer": "Yes! We offer custom-designed safaris tailored to your interests, budget, and timeframe. Contact our team to discuss your specific requirements."
+    },
+    {
+      "question": "Can I extend my safari?",
+      "answer": "Absolutely. Extensions to beaches, mountain treks, or additional game drives can be added. Contact us to customize your itinerary."
+    },
+    {
+      "question": "Do you offer group discounts?",
+      "answer": "Yes, we offer discounts for groups of 8 or more people. Please contact us for detailed pricing based on your group size."
+    }
+  ],
+  "wildlife": [
+    {
+      "question": "What are the Big Five animals?",
+      "answer": "The Big Five are: Lion, Elephant, Buffalo, Leopard, and Rhino. These are Africa's most iconic and sought-after wildlife, named for their danger to hunters, not their size."
+    },
+    {
+      "question": "When does the wildebeest migration occur?",
+      "answer": "The Great Wildebeest Migration in Serengeti occurs June-October when millions of wildebeest, zebras, and gazelles cross the plains. The dramatic river crossings typically happen July-September."
+    },
+    {
+      "question": "What other animals will I see on safari?",
+      "answer": "You'll see giraffes, zebras, antelopes, hyenas, cheetahs, wild dogs, baboons, and numerous bird species. Over 400 bird species are recorded in East African parks."
+    },
+    {
+      "question": "How close do game drives get to animals?",
+      "answer": "Guides maintain safe distances (typically 20-30 meters) from animals per park regulations. Animals are habituated to vehicles but maintain their natural behavior and space."
+    },
+    {
+      "question": "Can I photograph animals during safari?",
+      "answer": "Yes, photography is encouraged. Bring a good camera with zoom lens for wildlife photography. Many safaris include photography-focused options with extended driving times."
+    }
+  ],
+  "destinations": [
+    {
+      "question": "What are the main safari destinations in East Africa?",
+      "answer": "Main destinations include: Kenya (Masai Mara, Amboseli, Tsavo), Tanzania (Serengeti, Ngorongoro, Tarangire), Uganda (Bwindi, Queen Elizabeth, Murchison Falls), and Rwanda (Volcanoes, Akagera, Lake Kivu)."
+    },
+    {
+      "question": "Which park has the most animals?",
+      "answer": "Serengeti and Masai Mara have the highest wildlife concentrations, especially during migration season. Ngorongoro Crater has the highest density of large animals in a compact area."
+    },
+    {
+      "question": "What is the Ngorongoro Crater?",
+      "answer": "Ngorongoro is the world's largest intact volcanic caldera at 19km diameter and 610m deep. It contains a unique ecosystem with high wildlife concentration and is a UNESCO World Heritage Site."
+    },
+    {
+      "question": "How difficult is gorilla trekking?",
+      "answer": "Gorilla trekking requires moderate fitness. Treks typically last 2-8 hours with elevation gain. The muddy forest paths can be challenging, but guides assist. You must be at least 15 years old."
+    },
+    {
+      "question": "Can I climb Mount Kilimanjaro?",
+      "answer": "Yes, Mount Kilimanjaro (5,895m) is climbable via several routes. The Marangu route is most popular and accessible. You need moderate fitness but no technical climbing skills. Success rates vary by route and acclimatization."
+    }
+  ],
+  "experience": [
+    {
+      "question": "What is the accommodation like on safari?",
+      "answer": "Options range from budget camps with basic facilities to luxury lodges with en-suite bathrooms, fine dining, and spa services. Most accommodations are comfortable and safe with experienced staff."
+    },
+    {
+      "question": "What kind of vehicles are used for game drives?",
+      "answer": "Game drives use open-sided 4x4 safari vehicles with roof hatches for excellent wildlife viewing and photography. Vehicles are comfortable with supplies of water and snacks."
+    },
+    {
+      "question": "Are game drives conducted at night?",
+      "answer": "Night game drives are available in some parks to see nocturnal animals like owls, genets, and aardvarks. Day drives are morning (5:30-10am) and afternoon (3:30-7pm) when animals are most active."
+    },
+    {
+      "question": "What meals are provided on safari?",
+      "answer": "Typically included are breakfast, lunch, dinner, and hot beverages. Special dietary requirements (vegetarian, vegan, allergies) can be accommodated with advance notice."
+    },
+    {
+      "question": "Can I interact with local communities?",
+      "answer": "Yes, many safaris include visits to Maasai villages, local markets, and cultural experiences. These visits support local communities economically and provide cultural enrichment."
+    }
+  ],
+  "health": [
+    {
+      "question": "Is malaria a concern on safari?",
+      "answer": "Yes, malaria is present in East African safari regions. Antimalarial prophylaxis is strongly recommended. Use insect repellent, wear long sleeves at dusk/dawn, and use bed nets."
+    },
+    {
+      "question": "Is the water safe to drink?",
+      "answer": "Tap water quality varies. We recommend drinking bottled or filtered water. Lodges provide safe drinking water. Avoid ice in drinks and uncooked vegetables in remote areas."
+    },
+    {
+      "question": "Is medical care available on safari?",
+      "answer": "Major lodges have basic medical facilities and communication with emergency services. We recommend travel insurance including medical evacuation. Remote areas have limited medical facilities."
+    },
+    {
+      "question": "What should I do about altitude sickness?",
+      "answer": "For high-altitude climbs (Kilimanjaro, Mount Kenya), acclimatization is essential. Ascend gradually, stay hydrated, and consult your doctor about altitude medication."
+    }
+  ]
+}
