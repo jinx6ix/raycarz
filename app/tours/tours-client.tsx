@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useMemo, useEffect } from 'react';
+import { useState, useMemo, useEffect, Suspense } from 'react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
@@ -24,7 +24,8 @@ interface ToursClientProps {
   uniqueLocations: string[];
 }
 
-export default function ToursClient({ 
+// Component that uses useSearchParams - wrapped in Suspense
+function ToursContent({ 
   initialTours, 
   countryCounts, 
   difficultyCounts,
@@ -841,5 +842,42 @@ export default function ToursClient({
         }
       `}</style>
     </main>
+  );
+}
+
+// Loading fallback for Suspense
+function ToursLoading() {
+  return (
+    <main className="min-h-screen bg-slate-50">
+      <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 py-12">
+        <div className="animate-pulse">
+          <div className="h-96 bg-gray-200 rounded-lg mb-8"></div>
+          <div className="grid lg:grid-cols-4 gap-8">
+            <div className="hidden lg:block lg:col-span-1">
+              <div className="space-y-6">
+                <div className="h-64 bg-gray-200 rounded-lg"></div>
+                <div className="h-64 bg-gray-200 rounded-lg"></div>
+              </div>
+            </div>
+            <div className="lg:col-span-3">
+              <div className="grid md:grid-cols-2 gap-6">
+                {[1, 2, 3, 4, 5, 6].map((i) => (
+                  <div key={i} className="h-96 bg-gray-200 rounded-lg"></div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  );
+}
+
+// Main component with Suspense boundary
+export default function ToursClient(props: ToursClientProps) {
+  return (
+    <Suspense fallback={<ToursLoading />}>
+      <ToursContent {...props} />
+    </Suspense>
   );
 }
