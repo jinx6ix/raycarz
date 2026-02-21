@@ -195,7 +195,7 @@ export function generateMerchantSchema() {
     description: 'Premium safari tour operator offering Big Five safaris, gorilla trekking, bird watching, and wildlife adventures across Kenya, Tanzania, Uganda, and Rwanda',
     image: '/images/tours/big-five-masai-mara-1.jpg',
     telephone: '+254-726-485-228',
-    email: 'info@safaris-eastafrica.com',
+    email: 'info@raycarz.com',
     address: {
       '@type': 'PostalAddress',
       streetAddress: 'Safari Plaza, Arusha',

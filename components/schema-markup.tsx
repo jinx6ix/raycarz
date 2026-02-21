@@ -53,13 +53,13 @@ export function OrganizationSchema() {
     logo: 'https://www.raycarz.com/logo-remove-background.com.png',
     description: 'Premium safari tour operator offering Big Five safaris, gorilla trekking, bird watching, and wildlife adventures across Kenya, Tanzania, Uganda, and Rwanda',
     telephone: '+254-726-665-100',
-    email: 'info@safaris-eastafrica.com',
+    email: 'info@raycarz.com',
     address: {
       '@type': 'PostalAddress',
-      streetAddress: 'Safari Plaza, Arusha',
-      addressLocality: 'Arusha',
-      postalCode: '23110',
-      addressCountry: 'TZ'
+      streetAddress: ' Nairobi',
+      addressLocality: 'Nairobi',
+      postalCode: '00100',
+      addressCountry: 'KE'
     },
     sameAs: [
       'https://facebook.com/eastafricasafaritours',
@@ -70,8 +70,8 @@ export function OrganizationSchema() {
     contactPoint: {
       '@type': 'ContactPoint',
       contactType: 'Customer Service',
-      telephone: '+254-726-485-228',
-      email: 'info@safaris-eastafrica.com',
+      telephone: '+254-726-665-100',
+      email: 'info@raycarz.com',
       areaServed: ['KE', 'TZ', 'UG', 'RW']
     }
   };
@@ -142,16 +142,16 @@ export function LocalBusinessSchema() {
     name: 'RAYCARZ Tours & Safaris',
     image: 'https://www.raycarz.com/big-five-masai-mara-1.jpg',
     description: 'Expert-led safari tours and wildlife adventures in East Africa',
-    telephone: '+254-726-485-228',
-    email: 'info@safaris-eastafrica.com',
+    telephone: '+254-726-665-100',
+    email: 'info@raycarz.com',
     url: 'https://www.raycarz.com',
     address: {
       '@type': 'PostalAddress',
-      streetAddress: 'Safari Plaza, Arusha',
-      addressLocality: 'Arusha',
-      addressRegion: 'Arusha',
-      postalCode: '23110',
-      addressCountry: 'TZ'
+      streetAddress: 'Nairobi',
+      addressLocality: 'Nairobi',
+      addressRegion: 'Nairobi County',
+      postalCode: '00100',
+      addressCountry: 'KE'
     },
     geo: {
       '@type': 'GeoCoordinates',

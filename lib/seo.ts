@@ -104,7 +104,7 @@ export function generateLocalBusinessSchema() {
     description:
       'Professional safari tour operator specializing in Big Five safaris, Great Migration tours, and gorilla trekking across Kenya, Tanzania, Uganda, and Rwanda.',
     telephone: '+255-XXX-XXX-XXXX',
-    email: 'info@safaris-eastafrica.com',
+    email: 'safaris-eastafrica.com',
     address: {
       '@type': 'PostalAddress',
       streetAddress: 'Arusha',

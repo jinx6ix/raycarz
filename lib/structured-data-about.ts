@@ -50,7 +50,7 @@ export function generateAboutStructuredData(
         },
         contactPoint: {
           '@type': 'ContactPoint',
-          telephone: '+254-XXX-XXXX',
+          telephone: '+254-726-665-100',
           contactType: 'customer service',
           email: 'info@raycarz.com',
           availableLanguage: ['English', 'Swahili', 'French', 'German'],

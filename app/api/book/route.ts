@@ -134,8 +134,8 @@ export async function POST(request: NextRequest) {
     <div class="footer">
       <p style="margin: 0;"><strong>RAYCARZ Tours & Safaris</strong></p>
       <p style="margin: 8px 0 0; opacity: 0.8;">
-        <a href="tel:+254726485228">+254 726 485 228</a> | 
-        <a href="mailto:info@safaris-eastafrica.com">info@safaris-eastafrica.com</a>
+        <a href="tel:+254726665100">+254 726 665 100</a> | 
+        <a href="mailto:info@raycarz.com">info@raycarz.com</a>
       </p>
       <p style="margin: 8px 0 0; opacity: 0.7;">© 2025 RAYCARZ Tours & Safaris | All Rights Reserved</p>
     </div>

@@ -430,9 +430,9 @@ export default function DestinationsClient({
               <Phone className="w-4 h-4 mr-2" />
               +1 (234) 567-890
             </a>
-            <a href="mailto:info@yoursafariwebsite.com" className="flex items-center hover:text-amber-600">
+            <a href="mailto:info@raycarz.com" className="flex items-center hover:text-amber-600">
               <Mail className="w-4 h-4 mr-2" />
-              info@yoursafariwebsite.com
+              info@raycarz.com
             </a>
           </div>
         </section>

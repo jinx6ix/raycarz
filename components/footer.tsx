@@ -17,13 +17,13 @@ export default function Footer() {
             </div>
             <div className="space-y-2 pt-4">
               <p className="text-sm text-gray-400">
-                <strong>Email:</strong> info@safaris-eastafrica.com
+                <strong>Email:</strong> info@raycarz.com
               </p>
               <p className="text-sm text-gray-400">
-                <strong>Phone:</strong> +1-800-SAFARI-1
+                <strong>Phone:</strong> +254 726 665100
               </p>
               <p className="text-sm text-gray-400">
-                <strong>Location:</strong> Arusha, Tanzania
+                <strong>Location:</strong> Nairobi, Kenya
               </p>
             </div>
           </div>
