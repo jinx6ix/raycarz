@@ -10,7 +10,7 @@ export function generateFAQStructuredData(faqs: Record<string, FAQ[]>) {
     '@graph': [
       {
         '@type': 'FAQPage',
-        '@id': 'https://yoursafariwebsite.com/faq#faqpage',
+        '@id': 'https://www.raycarz.com/faq#faqpage',
         mainEntity: allFAQs.map(faq => ({
           '@type': 'Question',
           name: faq.question,
@@ -27,23 +27,23 @@ export function generateFAQStructuredData(faqs: Record<string, FAQ[]>) {
             '@type': 'ListItem',
             position: 1,
             name: 'Home',
-            item: 'https://yoursafariwebsite.com',
+            item: 'https://www.raycarz.com',
           },
           {
             '@type': 'ListItem',
             position: 2,
             name: 'FAQ',
-            item: 'https://yoursafariwebsite.com/faq',
+            item: 'https://www.raycarz.com/faq',
           },
         ],
       },
       {
         '@type': 'WebSite',
-        name: 'Your Safari Company Name - FAQ',
-        url: 'https://yoursafariwebsite.com/faq',
+        name: 'RAYCARZ Tours & Safaris - FAQ',
+        url: 'https://www.raycarz.com/faq',
         potentialAction: {
           '@type': 'SearchAction',
-          target: 'https://yoursafariwebsite.com/faq?search={search_term_string}',
+          target: 'https://www.raycarz.com/faq?search={search_term_string}',
           'query-input': 'required name=search_term_string',
         },
       },
@@ -75,7 +75,7 @@ export function generateBreadcrumbStructuredData(items: { name: string; url: str
       '@type': 'ListItem',
       position: index + 1,
       name: item.name,
-      item: `https://yoursafariwebsite.com${item.url}`,
+      item: `https://www.raycarz.com${item.url}`,
     })),
   };
 }

@@ -12,7 +12,7 @@ const blogPosts = blogPostsData as unknown as BlogPost[];
 
 // Enhanced metadata for SEO
 export const metadata: Metadata = {
-  title: 'African Safari Blog | Wildlife Guides & Travel Tips | East Africa',
+  title: 'RAYCARZ Tours & Safaris | Wildlife Guides & Travel Tips | East Africa',
   description: 'Expert safari blog with wildlife photography tips, conservation news, destination guides, and travel advice for Kenya, Tanzania, Uganda, and Rwanda.',
   keywords: [
     'african safari blog',
@@ -31,20 +31,20 @@ export const metadata: Metadata = {
     'african travel photography',
     'sustainable safari tourism'
   ],
-  authors: [{ name: 'Your Safari Company Name' }],
-  creator: 'Your Safari Company Name',
-  publisher: 'Your Safari Company Name',
+  authors: [{ name: 'RAYCARZ Tours & Safaris' }],
+  creator: 'RAYCARZ Tours & Safaris',
+  publisher: 'IAN IRAYA - RAYCARZ Tours & Safaris',
   openGraph: {
-    title: 'African Safari Blog | Expert Travel Guides & Wildlife Tips',
+    title: 'RAYCARZ Tours & Safaris | Expert Travel Guides & Wildlife Tips',
     description: 'Discover expert insights on African safaris, wildlife photography, conservation, and travel tips from experienced guides.',
-    url: 'https://yoursafariwebsite.com/blog',
-    siteName: 'Your Safari Company Name',
+    url: 'https://www.raycarz.com/blog',
+    siteName: 'RAYCARZ Tours & Safaris',
     images: [
       {
-        url: 'https://yoursafariwebsite.com/images/og-blog.jpg',
+        url: 'https://www.raycarz.com/og-blog.jpg',
         width: 1200,
         height: 630,
-        alt: 'African Safari Blog - Wildlife and Travel Guides',
+        alt: 'RAYCARZ Tours & Safaris - Wildlife and Travel Guides',
       },
     ],
     locale: 'en_US',
@@ -52,11 +52,11 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'African Safari Blog | Travel Tips & Wildlife Guides',
+    title: 'RAYCARZ Tours & Safaris | Travel Tips & Wildlife Guides',
     description: 'Expert insights on African safaris, wildlife photography, and travel tips.',
-    images: ['https://yoursafariwebsite.com/images/twitter-blog.jpg'],
-    creator: '@yoursafaricompany',
-    site: '@yoursafaricompany',
+    images: ['https://www.raycarz.com/twitter-blog.jpg'],
+    creator: '@RAYCARZSafaris',
+    site: '@RAYCARZ Tours & Safaris',
   },
   robots: {
     index: true,
@@ -70,11 +70,11 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: 'https://yoursafariwebsite.com/blog',
+    canonical: 'https://www.raycarz.com/blog',
     languages: {
-      'en-US': 'https://yoursafariwebsite.com/blog',
-      'fr': 'https://yoursafariwebsite.com/fr/blog',
-      'de': 'https://yoursafariwebsite.com/de/blog',
+      'en-US': 'https://www.raycarz.com/blog',
+      'fr': 'https://www.raycarz.com/blog',
+      'de': 'https://www.raycarz.com/blog',
     },
   },
   category: 'Travel Blog',

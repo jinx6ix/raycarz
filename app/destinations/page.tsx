@@ -39,11 +39,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'East African Safari Destinations | Explore Kenya, Tanzania, Uganda & Rwanda',
     description: 'Discover the best safari destinations in East Africa. From the Great Migration in Serengeti to mountain gorillas in Rwanda.',
-    url: 'https://yoursafariwebsite.com/destinations',
+    url: 'https://www.raycarz.com/destinations',
     siteName: 'Your Safari Company Name',
     images: [
       {
-        url: 'https://yoursafariwebsite.com/images/og-destinations.jpg',
+        url: 'https://www.raycarz.com/og-destinations.jpg',
         width: 1200,
         height: 630,
         alt: 'East African Safari Destinations - Wildlife and Landscapes',
@@ -56,9 +56,9 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'East African Safari Destinations',
     description: 'Explore premier safari destinations across Kenya, Tanzania, Uganda & Rwanda',
-    images: ['https://yoursafariwebsite.com/images/twitter-destinations.jpg'],
-    creator: '@yoursafaricompany',
-    site: '@yoursafaricompany',
+    images: ['https://www.raycarz.com/twitter-destinations.jpg'],
+    creator: '@RAYCARZ Tours & Safaris',
+    site: '@RAYCARZ Tours & Safaris',
   },
   robots: {
     index: true,
@@ -72,11 +72,11 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: 'https://yoursafariwebsite.com/destinations',
+    canonical: 'https://www.raycarz.com/destinations',
     languages: {
-      'en-US': 'https://yoursafariwebsite.com/destinations',
-      'fr': 'https://yoursafariwebsite.com/fr/destinations',
-      'de': 'https://yoursafariwebsite.com/de/destinations',
+      'en-US': 'https://www.raycarz.com/destinations',
+      'fr': 'https://www.raycarz.com/destinations',
+      'de': 'https://www.raycarz.com/destinations',
     },
   },
   category: 'travel',
@@ -134,13 +134,13 @@ export default function DestinationsPage() {
                 '@type': 'ListItem',
                 position: 1,
                 name: 'Home',
-                item: 'https://yoursafariwebsite.com',
+                item: 'https://www.raycarz.com',
               },
               {
                 '@type': 'ListItem',
                 position: 2,
                 name: 'Destinations',
-                item: 'https://yoursafariwebsite.com/destinations',
+                item: 'https://www.raycarz.com/destinations',
               },
             ],
           }),

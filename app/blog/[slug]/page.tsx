@@ -40,7 +40,7 @@ export async function generateMetadata({
     .filter((t: Tour | undefined): t is Tour => t !== undefined);
 
   return {
-    title: `${post.title} | African Safari Blog | ${post.category}`,
+    title: `${post.title} | RAYCARZ Tours & Safaris Blog | ${post.category}`,
     description: post.content.substring(0, 160).replace(/<[^>]*>/g, ''),
     keywords: [
       ...post.keywords,
@@ -54,12 +54,12 @@ export async function generateMetadata({
     ].join(', '),
     authors: [{ name: typeof post.author === 'string' ? post.author : '' }],
     creator: typeof post.author === 'string' ? post.author : post.author.name,
-    publisher: 'Your Safari Company Name',
+    publisher: 'RAYCARZ Tours & Safaris',
     openGraph: {
       title: post.title,
       description: post.content.substring(0, 160).replace(/<[^>]*>/g, ''),
-      url: `https://yoursafariwebsite.com/blog/${post.slug}`,
-      siteName: 'Your Safari Company Name',
+      url: `https://www.raycarz.com/blog/${post.slug}`,
+      siteName: 'RAYCARZ Tours & Safaris',
       images: [
         {
           url: post.image,
@@ -78,7 +78,7 @@ export async function generateMetadata({
       title: post.title,
       description: post.content.substring(0, 120).replace(/<[^>]*>/g, ''),
       images: [post.image],
-      creator: '@yoursafaricompany',
+      creator: '@RAYCARZ Tours & Safaris',
     },
     robots: {
       index: true,
@@ -92,7 +92,7 @@ export async function generateMetadata({
       },
     },
     alternates: {
-      canonical: `https://yoursafariwebsite.com/blog/${post.slug}`,
+      canonical: `https://www.raycarz.com/blog/${post.slug}`,
     },
     category: post.category,
     classification: 'Blog Post',

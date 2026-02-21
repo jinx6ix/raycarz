@@ -369,7 +369,7 @@ export default function TourBookingForm({ tour }: TourBookingFormProps) {
         {/* Quick Contact */}
         <div className="pt-2 border-t">
           <a
-            href={`https://wa.me/254726485228?text=${encodeURIComponent(
+            href={`https://wa.me/254726665100?text=${encodeURIComponent(
               `Hi, I'm interested in the ${tour.title} tour`
             )}`}
             target="_blank"

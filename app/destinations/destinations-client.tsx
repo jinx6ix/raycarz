@@ -95,7 +95,7 @@ export default function DestinationsClient({
         await navigator.share({
           title: `${destination.name} - East African Safari Destination`,
           text: `Explore ${destination.name} for your next safari adventure!`,
-          url: `https://yoursafariwebsite.com/destinations/${destination.slug}`,
+          url: `https://www.raycarz.com/destinations/${destination.slug}`,
         });
       } catch (error) {
         console.log('Error sharing:', error);

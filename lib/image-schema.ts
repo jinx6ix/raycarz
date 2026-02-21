@@ -175,7 +175,7 @@ export function generateTourProductSchema(tour: any) {
       price: tour.price,
       priceCurrency: tour.currency,
       availability: 'https://schema.org/InStock',
-      url: `https://safaris-eastafrica.com/tours/${tour.slug}`
+      url: `https://www.raycarz.com/tours/${tour.slug}`
     },
     aggregateRating: {
       '@type': 'AggregateRating',

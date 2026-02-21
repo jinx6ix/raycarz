@@ -8,9 +8,9 @@ export const metadata: Metadata = {
   title: 'African Safari Tours | Expertly Curated Safari Experiences',
   description: 'Discover 50+ expertly curated African safari tours across Kenya, Tanzania, Uganda & Rwanda. From luxury game drives to budget camping safaris, find your perfect adventure.',
   keywords: 'African safari, safari tours, Kenya safaris, Tanzania safaris, Uganda gorilla trekking, Rwanda safaris, wildlife tours, East Africa travel',
-  authors: [{ name: 'African Safari Tours' }],
-  creator: 'African Safari Tours',
-  publisher: 'African Safari Tours',
+  authors: [{ name: 'RAYCARZ Tours & Safaris' }],
+  creator: 'RAYCARZ Tours & Safaris',
+  publisher: 'RAYCARZ Tours & Safaris',
   formatDetection: {
     email: false,
     address: false,
@@ -19,13 +19,13 @@ export const metadata: Metadata = {
   
   // Open Graph for social sharing
   openGraph: {
-    title: 'African Safari Tours | Expertly Curated Safari Experiences',
+    title: 'EAST African Safari Tours | Expertly Curated Safari Experiences',
     description: 'Discover 50+ expertly curated African safari tours across East Africa. From luxury game drives to budget camping safaris.',
-    url: 'https://www.africansafaritours.com/tours',
+    url: 'https://www.raycarz.com/tours',
     siteName: 'African Safari Tours',
     images: [
       {
-        url: 'https://www.africansafaritours.com/images/og-tours.jpg',
+        url: 'https://www.raycarz.com/og-tours.jpg',
         width: 1200,
         height: 630,
         alt: 'African Safari Tours - Expertly Curated Safari Experiences',
@@ -40,9 +40,9 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'African Safari Tours | Expertly Curated Safari Experiences',
     description: 'Discover 50+ expertly curated African safari tours across East Africa.',
-    images: ['https://www.africansafaritours.com/images/twitter-tours.jpg'],
-    creator: '@africansafari',
-    site: '@africansafari',
+    images: ['https://www.raycarz.com/twitter-tours.jpg'],
+    creator: '@RAYCARZ Tours & Safaris',
+    site: '@RAYCARZ Tours & Safaris',
   },
 
   // Robots meta
@@ -60,11 +60,11 @@ export const metadata: Metadata = {
 
   // Canonical URL
   alternates: {
-    canonical: 'https://www.africansafaritours.com/tours',
+    canonical: 'https://www.raycarz.com/tours',
     languages: {
-      'en-US': 'https://www.africansafaritours.com/en/tours',
-      'fr-FR': 'https://www.africansafaritours.com/fr/tours',
-      'de-DE': 'https://www.africansafaritours.com/de/tours',
+      'en-US': 'https://www.raycarz.com/tours',
+      'fr-FR': 'https://www.raycarz.com/tours',
+      'de-DE': 'https://www.raycarz.com/tours',
     },
   },
 
@@ -136,13 +136,13 @@ export default async function ToursPage() {
                 '@type': 'ListItem',
                 'position': 1,
                 'name': 'Home',
-                'item': 'https://www.africansafaritours.com'
+                'item': 'https://www.raycarz.com'
               },
               {
                 '@type': 'ListItem',
                 'position': 2,
                 'name': 'Tours',
-                'item': 'https://www.africansafaritours.com/tours'
+                'item': 'https://www.raycarz.com/tours'
               }
             ]
           })
@@ -157,8 +157,8 @@ export default async function ToursPage() {
             '@context': 'https://schema.org',
             '@type': 'TravelAgency',
             'name': 'African Safari Tours',
-            'url': 'https://www.africansafaritours.com',
-            'logo': 'https://www.africansafaritours.com/logo.png',
+            'url': 'https://www.raycarz.com',
+            'logo': 'https://www.raycarz.com/logo.png',
             'sameAs': [
               'https://www.facebook.com/africansafaritours',
               'https://www.instagram.com/africansafaritours',

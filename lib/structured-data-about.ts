@@ -41,7 +41,7 @@ export function generateAboutStructuredData(
         founders: [
           {
             '@type': 'Person',
-            name: 'James Kipchoge',
+            name: 'IAN IRAYA',
           },
         ],
         address: {

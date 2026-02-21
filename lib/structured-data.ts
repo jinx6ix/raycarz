@@ -66,22 +66,22 @@ export function generateDestinationStructuredData(destinations: Destination[], t
             '@type': 'ListItem',
             position: 1,
             name: 'Home',
-            item: 'https://yoursafariwebsite.com',
+            item: 'https://www.raycarz.com',
           },
           {
             '@type': 'ListItem',
             position: 2,
             name: 'Destinations',
-            item: 'https://yoursafariwebsite.com/destinations',
+            item: 'https://www.raycarz.com/destinations',
           },
         ],
       },
       {
         '@type': 'TravelAgency',
-        name: 'Your Safari Company Name',
+        name: 'RAYCARZ Tours & Safaris',
         description: 'Premium East African Safari Tours',
-        url: 'https://yoursafariwebsite.com',
-        logo: 'https://yoursafariwebsite.com/logo.png',
+        url: 'https://www.raycarz.com',
+        logo: 'https://www.raycarz.com/logo.png',
         sameAs: [
           'https://facebook.com/yoursafaricompany',
           'https://instagram.com/yoursafaricompany',
@@ -107,10 +107,10 @@ export function generateSingleDestinationStructuredData(
     '@graph': [
       {
         '@type': 'TouristDestination',
-        '@id': `https://yoursafariwebsite.com/destinations/${destination.slug}#destination`,
+        '@id': `https://www.raycarz.com/destinations/${destination.slug}#destination`,
         name: destination.name,
         description: destination.longDescription || destination.description,
-        url: `https://yoursafariwebsite.com/destinations/${destination.slug}`,
+        url: `https://www.raycarz.com/destinations/${destination.slug}`,
         image: [destination.image, ...(destination.gallery || [])],
         address: {
           '@type': 'PostalAddress',
@@ -143,7 +143,7 @@ export function generateSingleDestinationStructuredData(
             '@type': 'Product',
             name: tour.title,
             description: tour.description,
-            url: `https://yoursafariwebsite.com/tours/${tour.slug}`,
+            url: `https://www.raycarz.com/tours/${tour.slug}`,
             image: tour.images?.[0]?.src,
             offers: {
               '@type': 'Offer',
@@ -195,13 +195,13 @@ export const generateToursStructuredData = (tours: Tour[]) => {
     'itemListElement': tours.slice(0, 10).map((tour, index) => ({
       '@type': 'ListItem',
       'position': index + 1,
-      'url': `https://www.africansafaritours.com/tours/${tour.slug}`,
+      'url': `https://www.raycarz.com/tours/${tour.slug}`,
       'name': tour.title,
       'description': tour.shortDescription || tour.description,
       'image': tour.images?.[0]?.src,
     })),
     'numberOfItems': tours.length,
-    'name': 'African Safari Tours',
+    'name': 'RAYCARZ Tours & Safari Tours',
     'description': 'Expertly curated African safari tours across East Africa',
   };
 };
@@ -215,7 +215,7 @@ export function generateBreadcrumbStructuredData(items: { name: string; url: str
       '@type': 'ListItem',
       position: index + 1,
       name: item.name,
-      item: `https://yoursafariwebsite.com${item.url}`,
+      item: `https://www.raycarz.com${item.url}`,
     })),
   };
 }
@@ -226,16 +226,16 @@ export function generateBlogStructuredData(posts: BlogPost[]) {
     '@graph': [
       {
         '@type': 'Blog',
-        '@id': 'https://yoursafariwebsite.com/blog#blog',
-        name: 'African Safari Blog',
+        '@id': 'https://www.raycarz.com/blog#blog',
+        name: 'RAYCARZ Tours & Safari Blog',
         description: 'Expert insights on wildlife, photography, conservation, and unforgettable African safari experiences.',
-        url: 'https://yoursafariwebsite.com/blog',
+        url: 'https://www.raycarz.com/blog',
         publisher: {
           '@type': 'Organization',
-          name: 'Your Safari Company Name',
+          name: 'RAYCARZ Tours & Safaris',
           logo: {
             '@type': 'ImageObject',
-            url: 'https://yoursafariwebsite.com/logo.png',
+            url: 'https://www.raycarz.com/logo.png',
           },
         },
         blogPost: posts.slice(0, 10).map(post => ({
@@ -248,7 +248,7 @@ export function generateBlogStructuredData(posts: BlogPost[]) {
             '@type': 'Person',
             name: post.author.name,
           },
-          url: `https://yoursafariwebsite.com/blog/${post.slug}`,
+          url: `https://www.raycarz.com/blog/${post.slug}`,
           keywords: post.tags?.join(', '),
         })),
       },
@@ -257,7 +257,7 @@ export function generateBlogStructuredData(posts: BlogPost[]) {
         itemListElement: posts.slice(0, 10).map((post, index) => ({
           '@type': 'ListItem',
           position: index + 1,
-          url: `https://yoursafariwebsite.com/blog/${post.slug}`,
+          url: `https://www.raycarz.com/blog/${post.slug}`,
         })),
       },
       {
@@ -267,23 +267,23 @@ export function generateBlogStructuredData(posts: BlogPost[]) {
             '@type': 'ListItem',
             position: 1,
             name: 'Home',
-            item: 'https://yoursafariwebsite.com',
+            item: 'https://www.raycarz.com',
           },
           {
             '@type': 'ListItem',
             position: 2,
             name: 'Blog',
-            item: 'https://yoursafariwebsite.com/blog',
+            item: 'https://www.raycarz.com/blog',
           },
         ],
       },
       {
         '@type': 'WebSite',
-        name: 'Your Safari Company Name - Blog',
+        name: 'RAYCARZ Tours & Safaris - Blog',
         url: 'https://yoursafariwebsite.com/blog',
         potentialAction: {
           '@type': 'SearchAction',
-          target: 'https://yoursafariwebsite.com/blog?search={search_term_string}',
+          target: 'https://www.raycarz.com/blog?search={search_term_string}',
           'query-input': 'required name=search_term_string',
         },
       },
@@ -310,15 +310,15 @@ export function generateBlogPostStructuredData(post: BlogPost, relatedPosts: Blo
         },
         publisher: {
           '@type': 'Organization',
-          name: 'Your Safari Company Name',
+          name: 'RAYCARZ Tours & Safaris',
           logo: {
             '@type': 'ImageObject',
-            url: 'https://yoursafariwebsite.com/logo.png',
+            url: 'https://www.raycarz.com/logo.png',
           },
         },
         mainEntityOfPage: {
           '@type': 'WebPage',
-          '@id': `https://yoursafariwebsite.com/blog/${post.slug}`,
+          '@id': `https://www.raycarz.com/blog/${post.slug}`,
         },
         keywords: post.tags?.join(', '),
         articleSection: post.category,
@@ -326,7 +326,7 @@ export function generateBlogPostStructuredData(post: BlogPost, relatedPosts: Blo
           about: relatedPosts.slice(0, 3).map(p => ({
             '@type': 'Thing',
             name: p.title,
-            url: `https://yoursafariwebsite.com/blog/${p.slug}`,
+            url: `https://www.raycarz.com/blog/${p.slug}`,
           })),
         }),
       },
@@ -337,19 +337,19 @@ export function generateBlogPostStructuredData(post: BlogPost, relatedPosts: Blo
             '@type': 'ListItem',
             position: 1,
             name: 'Home',
-            item: 'https://yoursafariwebsite.com',
+            item: 'https://www.raycarz.com',
           },
           {
             '@type': 'ListItem',
             position: 2,
             name: 'Blog',
-            item: 'https://yoursafariwebsite.com/blog',
+            item: 'https://www.raycarz.com/blog',
           },
           {
             '@type': 'ListItem',
             position: 3,
             name: post.title,
-            item: `https://yoursafariwebsite.com/blog/${post.slug}`,
+            item: `https://www.raycarz.com/blog/${post.slug}`,
           },
         ],
       },

@@ -49,10 +49,10 @@ export function OrganizationSchema() {
     '@context': 'https://schema.org',
     '@type': 'Organization',
     name: 'RAYCARZ Tours & Safaris',
-    url: 'https://safaris-eastafrica.com',
-    logo: 'https://safaris-eastafrica.com/logo-remove-background.com.png',
+    url: 'https://www.raycarz.com',
+    logo: 'https://www.raycarz.com/logo-remove-background.com.png',
     description: 'Premium safari tour operator offering Big Five safaris, gorilla trekking, bird watching, and wildlife adventures across Kenya, Tanzania, Uganda, and Rwanda',
-    telephone: '+254-726-485-228',
+    telephone: '+254-726-665-100',
     email: 'info@safaris-eastafrica.com',
     address: {
       '@type': 'PostalAddress',
@@ -125,7 +125,7 @@ export function ArticleSchema({ article }: { article: any }) {
     publisher: {
       '@type': 'Organization',
       name: 'RAYCARZ Tours & Safaris',
-      logo: { '@type': 'ImageObject', url: 'https://safaris-eastafrica.com/logo-remove-background.com.png' }
+      logo: { '@type': 'ImageObject', url: 'https://www.raycarz.com/logo-remove-background.com.png' }
     },
     articleBody: article.content,
     keywords: article.keywords?.join(', ')
@@ -140,11 +140,11 @@ export function LocalBusinessSchema() {
     '@context': 'https://schema.org',
     '@type': 'TravelAgency',
     name: 'RAYCARZ Tours & Safaris',
-    image: 'https://safaris-eastafrica.com/images/tours/big-five-masai-mara-1.jpg',
+    image: 'https://www.raycarz.com/big-five-masai-mara-1.jpg',
     description: 'Expert-led safari tours and wildlife adventures in East Africa',
     telephone: '+254-726-485-228',
     email: 'info@safaris-eastafrica.com',
-    url: 'https://safaris-eastafrica.com',
+    url: 'https://www.raycarz.com',
     address: {
       '@type': 'PostalAddress',
       streetAddress: 'Safari Plaza, Arusha',

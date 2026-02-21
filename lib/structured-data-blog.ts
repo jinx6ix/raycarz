@@ -15,7 +15,7 @@ export function generateBlogPostStructuredData(
     '@graph': [
       {
         '@type': 'BlogPosting',
-        '@id': `https://yoursafariwebsite.com/blog/${post.slug}#blogposting`,
+        '@id': `https://www.raycarz.com/blog/${post.slug}#blogposting`,
         headline: post.title,
         description: cleanContent.substring(0, 200),
         image: {
@@ -29,21 +29,21 @@ export function generateBlogPostStructuredData(
         author: {
           '@type': 'Person',
           name: post.author,
-          url: `https://yoursafariwebsite.com/blog/author/${post.author.toLowerCase().replace(/\s+/g, '-')}`,
+          url: `https://www.raycarz.com/blog/author/${post.author.toLowerCase().replace(/\s+/g, '-')}`,
         },
         publisher: {
           '@type': 'Organization',
-          name: 'Your Safari Company Name',
+          name: 'RAYCARZ Tours & Safaris',
           logo: {
             '@type': 'ImageObject',
-            url: 'https://yoursafariwebsite.com/logo.png',
+            url: 'https://www.raycarz.com/logo.png',
             width: 600,
             height: 60,
           },
         },
         mainEntityOfPage: {
           '@type': 'WebPage',
-          '@id': `https://yoursafariwebsite.com/blog/${post.slug}`,
+          '@id': `https://www.raycarz.com/blog/${post.slug}`,
         },
         keywords: post.keywords?.join(', '),
         articleSection: post.category,
@@ -53,14 +53,14 @@ export function generateBlogPostStructuredData(
           mentions: relatedPosts.map(p => ({
             '@type': 'Thing',
             name: p.title,
-            url: `https://yoursafariwebsite.com/blog/${p.slug}`,
+            url: `https://www.raycarz.com/blog/${p.slug}`,
           })),
         }),
         ...(relatedTours.length > 0 && {
           mentions: relatedTours.map(t => ({
             '@type': 'Product',
             name: t.title,
-            url: `https://yoursafariwebsite.com/tours/${t.slug}`,
+            url: `https://www.raycarz.com/tours/${t.slug}`,
             offers: {
               '@type': 'Offer',
               price: t.price,
@@ -76,25 +76,25 @@ export function generateBlogPostStructuredData(
             '@type': 'ListItem',
             position: 1,
             name: 'Home',
-            item: 'https://yoursafariwebsite.com',
+            item: 'https://www.raycarz.com',
           },
           {
             '@type': 'ListItem',
             position: 2,
             name: 'Blog',
-            item: 'https://yoursafariwebsite.com/blog',
+            item: 'https://www.raycarz.com/blog',
           },
           {
             '@type': 'ListItem',
             position: 3,
             name: post.category,
-            item: `https://yoursafariwebsite.com/blog?category=${encodeURIComponent(post.category)}`,
+            item: `https://www.raycarz.com/blog?category=${encodeURIComponent(post.category)}`,
           },
           {
             '@type': 'ListItem',
             position: 4,
             name: post.title,
-            item: `https://yoursafariwebsite.com/blog/${post.slug}`,
+            item: `https://www.raycarz.com/blog/${post.slug}`,
           },
         ],
       },
@@ -110,7 +110,7 @@ export function generateBreadcrumbStructuredData(items: { name: string; url: str
       '@type': 'ListItem',
       position: index + 1,
       name: item.name,
-      item: `https://yoursafariwebsite.com${item.url}`,
+      item: `https://www.raycarz.com${item.url}`,
     })),
   };
 }

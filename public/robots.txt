@@ -19,4 +19,4 @@ Allow: /
 Crawl-delay: 0
 
 # Reference to sitemap
-Sitemap: https://safaris-eastafrica.com/sitemap.xml
+Sitemap: https://www.raycarz.com/sitemap.xml

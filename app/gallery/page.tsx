@@ -31,14 +31,14 @@ export const metadata: Metadata = {
     'african landscape photography',
     'safari moments captured'
   ],
-  authors: [{ name: 'Your Safari Company Name' }],
-  creator: 'Your Safari Company Name',
-  publisher: 'Your Safari Company Name',
+  authors: [{ name: 'RAYCARZ Tours & Safaris' }],
+  creator: 'RAYCARZ Tours & Safaris',
+  publisher: 'RAYCARZ Tours & Safaris',
   openGraph: {
     title: 'African Safari Photo Gallery | Wildlife Photography',
     description: 'Stunning photos and videos from African safaris. Witness the beauty of East African wildlife through our lens.',
-    url: 'https://yoursafariwebsite.com/gallery',
-    siteName: 'Your Safari Company Name',
+    url: 'https://www.raycarz.com/gallery',
+    siteName: 'RAYCARZ Tours & Safaris',
     images: socialPosts.slice(0, 5).map(post => ({
       url: post.image,
       width: 1200,
@@ -50,11 +50,11 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'African Safari Photo Gallery',
+    title: 'RAYCARZ Safari Photo Gallery',
     description: 'Stunning photos and videos from African safaris. Witness the beauty of East African wildlife.',
     images: socialPosts[0]?.image ? [socialPosts[0].image] : [],
-    creator: '@yoursafaricompany',
-    site: '@yoursafaricompany',
+    creator: '@RAYCARZ Tours & Safaris',
+    site: '@RAYCARZ Tours & Safaris',
   },
   robots: {
     index: true,
@@ -68,11 +68,11 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: 'https://yoursafariwebsite.com/gallery',
+    canonical: 'https://www.raycarz.com/gallery',
     languages: {
-      'en-US': 'https://yoursafariwebsite.com/gallery',
-      'fr': 'https://yoursafariwebsite.com/fr/gallery',
-      'de': 'https://yoursafariwebsite.com/de/gallery',
+      'en-US': 'https://www.raycarz.com/gallery',
+      'fr': 'https://www.raycarz.com/gallery',
+      'de': 'https://www.raycarz.com/gallery',
     },
   },
   category: 'Gallery',

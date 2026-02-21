@@ -56,14 +56,14 @@ export async function generateMetadata({
       `${destination.name} travel guide`,
       `${destination.name} attractions`,
     ].join(', '),
-    authors: [{ name: 'Your Safari Company Name' }],
-    creator: 'Your Safari Company Name',
-    publisher: 'Your Safari Company Name',
+    authors: [{ name: 'RAYCARZ Tours & Safaris' }],
+    creator: 'RAYCARZ Tours & Safaris',
+    publisher: 'RAYCARZ Tours & Safaris',
     openGraph: {
       title: `${destination.name} Safari | African Wildlife Adventure`,
       description: destination.longDescription?.substring(0, 160) || destination.description,
-      url: `https://yoursafariwebsite.com/destinations/${destination.slug}`,
-      siteName: 'Your Safari Company Name',
+      url: `https://www.raycarz.com/destinations/${destination.slug}`,
+      siteName: 'RAYCARZ Tours & Safaris',
       images: [
         {
           url: destination.image,
@@ -86,8 +86,8 @@ export async function generateMetadata({
       title: `${destination.name} Safari | African Wildlife Experience`,
       description: destination.longDescription?.substring(0, 120) || destination.description,
       images: [destination.image],
-      creator: '@yoursafaricompany',
-      site: '@yoursafaricompany',
+      creator: '@RAYCARZ Tours & Safaris',
+      site: '@RAYCARZ Tours & Safaris',
     },
     robots: {
       index: true,
@@ -101,11 +101,11 @@ export async function generateMetadata({
       },
     },
     alternates: {
-      canonical: `https://yoursafariwebsite.com/destinations/${destination.slug}`,
+      canonical: `https://www.raycarz.com/destinations/${destination.slug}`,
       languages: {
-        'en-US': `https://yoursafariwebsite.com/destinations/${destination.slug}`,
-        'fr': `https://yoursafariwebsite.com/fr/destinations/${destination.slug}`,
-        'de': `https://yoursafariwebsite.com/de/destinations/${destination.slug}`,
+        'en-US': `https://www.raycarz.com/destinations/${destination.slug}`,
+        'fr': `https://www.raycarz.com/destinations/${destination.slug}`,
+        'de': `https://www.raycarz.com/destinations/${destination.slug}`,
       },
     },
     category: 'Safari Destination',

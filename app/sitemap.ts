@@ -3,7 +3,7 @@ import tours from '@/data/tours.json';
 import destinations from '@/data/destinations.json';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://safaris-eastafrica.com';
+  const baseUrl = 'https://www.raycarz.com/';
 
   // Home page
   const homeUrl: MetadataRoute.Sitemap = [

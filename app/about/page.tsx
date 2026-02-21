@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     siteName: 'RAYCARZ Tours & Safaris',
     images: [
       {
-        url: 'https://raycarz.com/images/about-hero.jpg',
+        url: 'https://raycarz.com/about-hero.jpg',
         width: 1200,
         height: 630,
         alt: 'RAYCARZ Tours & Safaris - About Us',
@@ -61,7 +61,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'About RAYCARZ Tours & Safaris',
     description: 'Expert safari guides and sustainable tourism in East Africa. 20+ years of experience.',
-    images: ['https://raycarz.com/images/about-twitter.jpg'],
+    images: ['https://raycarz.com/about-twitter.jpg'],
     creator: '@raycarzsafaris',
     site: '@raycarzsafaris',
   },
@@ -80,8 +80,8 @@ export const metadata: Metadata = {
     canonical: 'https://raycarz.com/about',
     languages: {
       'en-US': 'https://raycarz.com/about',
-      'fr': 'https://raycarz.com/fr/about',
-      'de': 'https://raycarz.com/de/about',
+      'fr': 'https://raycarz.com/about',
+      'de': 'https://raycarz.com/about',
     },
   },
   category: 'About Us',

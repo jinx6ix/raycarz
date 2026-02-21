@@ -5,7 +5,7 @@ import type { BlogPost } from '../types';
 
 export async function GET() {
   const posts = blogPosts as unknown as BlogPost[];
-  const baseUrl = 'https://yoursafariwebsite.com';
+  const baseUrl = 'https://www.raycarz.com';
   
   const rss = `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">

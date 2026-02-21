@@ -31,17 +31,17 @@ export const metadata: Metadata = {
     'east africa travel faq',
     'safari preparation guide'
   ],
-  authors: [{ name: 'Your Safari Company Name' }],
-  creator: 'Your Safari Company Name',
-  publisher: 'Your Safari Company Name',
+  authors: [{ name: 'RAYCARZ Tours & Safaris' }],
+  creator: 'RAYCARZ Tours & Safaris',
+  publisher: 'RAYCARZ Tours & Safaris',
   openGraph: {
     title: 'Frequently Asked Questions About African Safaris',
     description: 'Expert answers to common questions about African safari tours, destinations, wildlife, and travel tips.',
-    url: 'https://yoursafariwebsite.com/faq',
+    url: 'https://www.raycarz.com/faq',
     siteName: 'Your Safari Company Name',
     images: [
       {
-        url: 'https://yoursafariwebsite.com/images/og-faq.jpg',
+        url: 'https://www.raycarz.com/og-faq.jpg',
         width: 1200,
         height: 630,
         alt: 'African Safari FAQ - Expert Answers',
@@ -54,9 +54,9 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Frequently Asked Questions About African Safaris',
     description: 'Expert answers to common questions about African safari tours and travel.',
-    images: ['https://yoursafariwebsite.com/images/twitter-faq.jpg'],
-    creator: '@yoursafaricompany',
-    site: '@yoursafaricompany',
+    images: ['https://www.raycarz.com/twitter-faq.jpg'],
+    creator: '@RAYCARZ Tours & Safaris',
+    site: '@RAYCARZ Tours & Safaris',
   },
   robots: {
     index: true,
@@ -70,11 +70,11 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: 'https://yoursafariwebsite.com/faq',
+    canonical: 'https://www.raycarz.com/faq',
     languages: {
-      'en-US': 'https://yoursafariwebsite.com/faq',
-      'fr': 'https://yoursafariwebsite.com/fr/faq',
-      'de': 'https://yoursafariwebsite.com/de/faq',
+      'en-US': 'https://www.raycarz.com/faq',
+      'fr': 'https://www.raycarz.com/faq',
+      'de': 'https://www.raycarz.com/faq',
     },
   },
   category: 'FAQ',

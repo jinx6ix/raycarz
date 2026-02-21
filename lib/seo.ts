@@ -46,7 +46,7 @@ export function generateProductSchema(tour: Tour) {
     },
     offers: {
       '@type': 'Offer',
-      url: `https://safaris-eastafrica.com/safari-tours/${tour.slug}`,
+      url: `https://www.raycarz.com/tours/${tour.slug}`,
       priceCurrency: tour.currency,
       price: tour.price.toString(),
       availability: 'https://schema.org/InStock',
@@ -100,7 +100,7 @@ export function generateLocalBusinessSchema() {
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
     name: 'RAYCARZ Tours & Safaris',
-    image: 'https://safaris-eastafrica.com/logo-remove-background.com.png',
+    image: 'https://www.raycarz.com/logo-remove-background.com.png',
     description:
       'Professional safari tour operator specializing in Big Five safaris, Great Migration tours, and gorilla trekking across Kenya, Tanzania, Uganda, and Rwanda.',
     telephone: '+255-XXX-XXX-XXXX',
@@ -111,7 +111,7 @@ export function generateLocalBusinessSchema() {
       addressLocality: 'Arusha',
       addressCountry: 'TZ',
     },
-    url: 'https://safaris-eastafrica.com',
+    url: 'https://www.raycarz.com',
     priceRange: '$$',
     areaServed: ['Kenya', 'Tanzania', 'Uganda', 'Rwanda'],
     servesCuisine: 'African',
@@ -126,7 +126,7 @@ export function generateBreadcrumbSchema(breadcrumbs: BreadcrumbItem[]) {
       '@type': 'ListItem',
       position: (index + 1).toString(),
       name: item.name,
-      item: `https://safaris-eastafrica.com${item.url}`,
+      item: `https://www.raycarz.com${item.url}`,
     })),
   }
 }
@@ -137,7 +137,7 @@ export function generateMerchantListingSchema(tours: Tour[]) {
     '@type': 'CollectionPage',
     name: 'RAYCARZ Tours & Safaris',
     description: 'Browse our collection of 33+ carefully curated safari and trekking tours across East Africa.',
-    url: 'https://safaris-eastafrica.com/safari-tours',
+    url: 'https://www.raycarz.com/tours',
     mainEntity: tours.map((tour) => ({
       '@type': 'Product',
       name: tour.title,
@@ -145,7 +145,7 @@ export function generateMerchantListingSchema(tours: Tour[]) {
       image: tour.images?.[0]?.src,
       offers: {
         '@type': 'Offer',
-        url: `https://safaris-eastafrica.com/safari-tours/${tour.slug}`,
+        url: `https://www.raycarz.com/tours/${tour.slug}`,
         priceCurrency: tour.currency,
         price: tour.price.toString(),
       },

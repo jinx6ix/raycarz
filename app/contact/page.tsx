@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     siteName: 'RAYCARZ Tours & Safaris',
     images: [
       {
-        url: 'https://raycarz.com/images/contact-hero.jpg',
+        url: 'https://raycarz.com/contact-hero.jpg',
         width: 1200,
         height: 630,
         alt: 'Contact RAYCARZ Tours & Safaris - Kenya Safari Experts',
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Contact RAYCARZ Tours & Safaris',
     description: 'Contact our Kenya-based safari experts for personalized tour planning.',
-    images: ['https://raycarz.com/images/contact-twitter.jpg'],
+    images: ['https://raycarz.com/contact-twitter.jpg'],
     creator: '@raycarzsafaris',
     site: '@raycarzsafaris',
   },
@@ -70,8 +70,8 @@ export const metadata: Metadata = {
     canonical: 'https://raycarz.com/contact',
     languages: {
       'en-US': 'https://raycarz.com/contact',
-      'fr': 'https://raycarz.com/fr/contact',
-      'de': 'https://raycarz.com/de/contact',
+      'fr': 'https://raycarz.com/contact',
+      'de': 'https://raycarz.com/contact',
     },
   },
   category: 'Contact',
@@ -83,7 +83,7 @@ const defaultOffice: OfficeLocation = {
   country: 'Kenya',
   city: 'Nairobi',
   address: 'Westlands, Nairobi, Kenya',
-  phone: '+254 700 123456',
+  phone: '+254 726 665100',
   email: 'info@raycarz.com',
   hours: 'Monday-Friday: 8:00 AM - 6:00 PM EAT',
   coordinates: {

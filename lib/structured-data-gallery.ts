@@ -7,10 +7,10 @@ export function generateGalleryStructuredData(posts: SocialPost[], totalPhotos: 
     '@graph': [
       {
         '@type': 'ImageGallery',
-        '@id': 'https://yoursafariwebsite.com/gallery#gallery',
-        name: 'African Safari Photo Gallery',
+        '@id': 'https://www.raycarz.com/gallery#gallery',
+        name: 'RAYCARZ Tours & Safari Photo Gallery',
         description: 'Stunning photos and videos from East African safaris. Witness wildlife, landscapes, and cultural moments captured by our expert guides and guests.',
-        url: 'https://yoursafariwebsite.com/gallery',
+        url: 'https://www.raycarz.com/gallery',
         image: posts.slice(0, 10).map(post => post.image),
         numberOfItems: posts.length,
         about: {
@@ -19,7 +19,7 @@ export function generateGalleryStructuredData(posts: SocialPost[], totalPhotos: 
         },
         mainEntityOfPage: {
           '@type': 'WebPage',
-          '@id': 'https://yoursafariwebsite.com/gallery',
+          '@id': 'https://www.raycarz.com/gallery',
         },
       },
       {
@@ -71,23 +71,23 @@ export function generateGalleryStructuredData(posts: SocialPost[], totalPhotos: 
             '@type': 'ListItem',
             position: 1,
             name: 'Home',
-            item: 'https://yoursafariwebsite.com',
+            item: 'https://www.raycarz.com',
           },
           {
             '@type': 'ListItem',
             position: 2,
             name: 'Gallery',
-            item: 'https://yoursafariwebsite.com/gallery',
+            item: 'https://www.raycarz.com/gallery',
           },
         ],
       },
       {
         '@type': 'WebSite',
         name: 'Your Safari Company Name - Gallery',
-        url: 'https://yoursafariwebsite.com/gallery',
+        url: 'https://www.raycarz.com/gallery',
         potentialAction: {
           '@type': 'SearchAction',
-          target: 'https://yoursafariwebsite.com/gallery?tag={search_term_string}',
+          target: 'https://www.raycarz.com/gallery?tag={search_term_string}',
           'query-input': 'required name=search_term_string',
         },
       },
@@ -101,7 +101,7 @@ export function generateSinglePostStructuredData(post: SocialPost, relatedPosts:
     '@graph': [
       {
         '@type': post.type === 'video' ? 'VideoObject' : 'ImageObject',
-        '@id': `https://yoursafariwebsite.com/gallery/${post.id}#${post.type}`,
+        '@id': `https://www.raycarz.com/gallery/${post.id}#${post.type}`,
         name: post.title,
         description: post.caption,
         contentUrl: post.image,
@@ -160,19 +160,19 @@ export function generateSinglePostStructuredData(post: SocialPost, relatedPosts:
             '@type': 'ListItem',
             position: 1,
             name: 'Home',
-            item: 'https://yoursafariwebsite.com',
+            item: 'https://www.raycarz.com',
           },
           {
             '@type': 'ListItem',
             position: 2,
             name: 'Gallery',
-            item: 'https://yoursafariwebsite.com/gallery',
+            item: 'https://www.raycarz.com/gallery',
           },
           {
             '@type': 'ListItem',
             position: 3,
             name: post.title,
-            item: `https://yoursafariwebsite.com/gallery/${post.id}`,
+            item: `https://www.raycarz.com/gallery/${post.id}`,
           },
         ],
       },
@@ -188,7 +188,7 @@ export function generateBreadcrumbStructuredData(items: { name: string; url: str
       '@type': 'ListItem',
       position: index + 1,
       name: item.name,
-      item: `https://yoursafariwebsite.com${item.url}`,
+      item: `https://www.raycarz.com${item.url}`,
     })),
   };
 }
