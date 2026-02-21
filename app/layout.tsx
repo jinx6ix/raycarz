@@ -19,6 +19,9 @@ export const metadata: Metadata = {
   publisher: 'RAYCARZ Tours & Safaris',
   robots: 'index, follow',
   authors: [{ name: 'RAYCARZ Tours & Safaris' }],
+  icons: {
+    icon: '/logo2.ico',
+  },
   openGraph: {
     type: 'website',
     locale: 'en_US',

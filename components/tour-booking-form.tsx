@@ -247,6 +247,7 @@ export default function TourBookingForm({ tour }: TourBookingFormProps) {
                   # of Guests *
                 </label>
                 <select
+                  title='Select number of guests'
                   name="numberOfGuests"
                   value={formData.numberOfGuests}
                   onChange={handleInputChange}
@@ -267,6 +268,7 @@ export default function TourBookingForm({ tour }: TourBookingFormProps) {
                   Start Date *
                 </label>
                 <input
+                  title='Select start date'
                   type="date"
                   name="startDate"
                   value={formData.startDate}
