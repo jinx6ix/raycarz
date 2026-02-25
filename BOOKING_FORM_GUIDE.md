@@ -350,7 +350,7 @@ In `components/tour-booking-form.tsx` line 223:
 
 ```javascript
 // Current
-href={`https://wa.me/254726665100?text=...`}
+href={`https://wa.me/+254787644555?text=...`}
 
 // Change to your number
 href={`https://wa.me/YOUR_NUMBER?text=...`}

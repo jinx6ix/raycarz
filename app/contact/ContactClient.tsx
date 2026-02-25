@@ -302,7 +302,7 @@ export default function ContactClient({ office }: ContactClientProps) {
               icon: <MessageCircle className="w-5 h-5" />,
               label: 'WhatsApp',
               value: office.whatsapp || '+254 726 665 100',
-              action: () => window.open(`https://wa.me/${office.whatsapp?.replace(/\D/g, '') || '254726665100'}`, '_blank'),
+              action: () => window.open(`https://wa.me/${office.whatsapp?.replace(/\D/g, '') || '+254787644555'}`, '_blank'),
               color: 'emerald',
             },
             {

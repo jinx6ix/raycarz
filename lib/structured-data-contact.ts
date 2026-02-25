@@ -52,7 +52,7 @@ export function generateContactStructuredData(office: OfficeLocation) {
           'https://twitter.com/raycarzsafaris',
           'https://linkedin.com/company/raycarzsafaris',
           'https://youtube.com/raycarzsafaris',
-          'https://wa.me/254726665100',
+          'https://wa.me/+254787644555',
         ],
       },
       {

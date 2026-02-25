@@ -53,7 +53,7 @@ export async function POST(request: NextRequest) {
     const adminEmail = process.env.HOST_EMAIL || process.env.SMTP_USER;
 
     // WhatsApp links
-    const adminWhatsApp = 'https://wa.me/254726665100'; // Update with your business number
+    const adminWhatsApp = 'https://wa.me/+254787644555'; // Update with your business number
     const customerPhone = bookingData.phone.replace(/[^0-9]/g, '').replace(/^0/, '254');
     const customerWhatsApp = `https://wa.me/${customerPhone}`;
 
