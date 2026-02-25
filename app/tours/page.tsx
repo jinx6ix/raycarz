@@ -161,7 +161,7 @@ export default async function ToursPage() {
             'logo': 'https://www.raycarz.com/logo.png',
             'sameAs': [
               'https://www.facebook.com/africansafaritours',
-              'https://www.instagram.com/africansafaritours',
+              'https://www.instagram.com/raycarztourandsafaris?igsh=MWd6MXVqY2cxcG51bw==',
               'https://twitter.com/africansafari',
               'https://www.pinterest.com/africansafaritours'
             ],

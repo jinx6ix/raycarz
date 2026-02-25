@@ -628,7 +628,7 @@ export default function ContactClient({ office }: ContactClientProps) {
                       <Input
                         id="phone"
                         type="tel"
-                        placeholder="+254 726 665 100"
+                        placeholder="+254787644555"
                         value={formData.phone}
                         onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                         className={`mt-2 ${errors.phone ? 'border-red-500' : ''}`}
@@ -866,7 +866,7 @@ export default function ContactClient({ office }: ContactClientProps) {
                   },
                   {
                     q: "Can I book a tour over the phone?",
-                    a: "Yes! Call us at +254 726 665100 to discuss your tour preferences and book directly with our team."
+                    a: "Yes! Call us at +254787644555 to discuss your tour preferences and book directly with our team."
                   },
                   {
                     q: "Do you offer video consultations?",
@@ -878,7 +878,7 @@ export default function ContactClient({ office }: ContactClientProps) {
                   },
                   {
                     q: "Is WhatsApp available for international inquiries?",
-                    a: "Yes! Add +254 726 665100 to your contacts and message us on WhatsApp for quick responses."
+                    a: "Yes! Add +254787644555 to your contacts and message us on WhatsApp for quick responses."
                   },
                   {
                     q: "Do you have a physical office I can visit?",
@@ -920,11 +920,11 @@ export default function ContactClient({ office }: ContactClientProps) {
               </div>
             </div>
             <a
-              href="tel:+254726665100"
+              href="tel:+254787644555"
               className="bg-white text-red-700 px-6 py-3 rounded-lg font-semibold hover:bg-red-50 transition-colors flex items-center gap-2"
             >
               <Phone className="w-4 h-4" />
-              +254 726 665100
+              +254787644555
             </a>
           </div>
         </motion.div>

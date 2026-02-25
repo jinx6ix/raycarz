@@ -83,7 +83,7 @@ const defaultOffice: OfficeLocation = {
   country: 'Kenya',
   city: 'Nairobi',
   address: 'Westlands, Nairobi, Kenya',
-  phone: '+254 726 665100',
+  phone: '+254787644555',
   email: 'info@raycarz.com',
   hours: 'Monday-Friday: 8:00 AM - 6:00 PM EAT',
   coordinates: {

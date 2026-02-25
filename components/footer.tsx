@@ -20,7 +20,7 @@ export default function Footer() {
                 <strong>Email:</strong> info@raycarz.com
               </p>
               <p className="text-sm text-gray-400">
-                <strong>Phone:</strong> +254 726 665100
+                <strong>Phone:</strong> +254787644555
               </p>
               <p className="text-sm text-gray-400">
                 <strong>Location:</strong> Nairobi, Kenya
@@ -135,7 +135,7 @@ export default function Footer() {
                 <path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5c-.563-.074-1.751-.233-3.328-.233-3.385 0-5.747 2.138-5.747 6.053v1.48z" />
               </svg>
             </a>
-            <a href="https://instagram.com/eastafricasafaritours" className="text-gray-400 hover:text-amber-500 transition-colors">
+            <a href="https://www.instagram.com/raycarztourandsafaris?igsh=MWd6MXVqY2cxcG51bw==" className="text-gray-400 hover:text-amber-500 transition-colors">
               <span className="sr-only">Instagram</span>
               <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
                 <rect x="2" y="2" width="20" height="20" rx="5" ry="5" fill="none" stroke="currentColor" strokeWidth="2" />

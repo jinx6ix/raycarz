@@ -84,7 +84,7 @@ export function generateDestinationStructuredData(destinations: Destination[], t
         logo: 'https://www.raycarz.com/logo.png',
         sameAs: [
           'https://facebook.com/yoursafaricompany',
-          'https://instagram.com/yoursafaricompany',
+          'https://www.instagram.com/raycarztourandsafaris?igsh=MWd6MXVqY2cxcG51bw==',
           'https://twitter.com/yoursafaricompany',
         ],
         address: {

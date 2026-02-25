@@ -52,7 +52,7 @@ export function OrganizationSchema() {
     url: 'https://www.raycarz.com',
     logo: 'https://www.raycarz.com/logo-remove-background.com.png',
     description: 'Premium safari tour operator offering Big Five safaris, gorilla trekking, bird watching, and wildlife adventures across Kenya, Tanzania, Uganda, and Rwanda',
-    telephone: '+254-726-665-100',
+    telephone: '+254787644555',
     email: 'info@raycarz.com',
     address: {
       '@type': 'PostalAddress',
@@ -63,14 +63,14 @@ export function OrganizationSchema() {
     },
     sameAs: [
       'https://facebook.com/eastafricasafaritours',
-      'https://instagram.com/eastafricasafaritours',
+      'https://www.instagram.com/raycarztourandsafaris?igsh=MWd6MXVqY2cxcG51bw==',
       'https://twitter.com/eastafricasafari',
       'https://youtube.com/eastafricasafaritours'
     ],
     contactPoint: {
       '@type': 'ContactPoint',
       contactType: 'Customer Service',
-      telephone: '+254-726-665-100',
+      telephone: '+254787644555',
       email: 'info@raycarz.com',
       areaServed: ['KE', 'TZ', 'UG', 'RW']
     }
@@ -142,7 +142,7 @@ export function LocalBusinessSchema() {
     name: 'RAYCARZ Tours & Safaris',
     image: 'https://www.raycarz.com/big-five-masai-mara-1.jpg',
     description: 'Expert-led safari tours and wildlife adventures in East Africa',
-    telephone: '+254-726-665-100',
+    telephone: '+254787644555',
     email: 'info@raycarz.com',
     url: 'https://www.raycarz.com',
     address: {

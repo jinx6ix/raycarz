@@ -194,7 +194,7 @@ export function generateMerchantSchema() {
     name: 'RAYCARZ Tours & Safaris',
     description: 'Premium safari tour operator offering Big Five safaris, gorilla trekking, bird watching, and wildlife adventures across Kenya, Tanzania, Uganda, and Rwanda',
     image: '/images/tours/big-five-masai-mara-1.jpg',
-    telephone: '+254-726-485-228',
+    telephone: '+254787644555',
     email: 'info@raycarz.com',
     address: {
       '@type': 'PostalAddress',
@@ -204,7 +204,7 @@ export function generateMerchantSchema() {
     },
     sameAs: [
       'https://facebook.com/eastafricasafaritours',
-      'https://instagram.com/eastafricasafaritours',
+      'https://www.instagram.com/raycarztourandsafaris?igsh=MWd6MXVqY2cxcG51bw==',
       'https://youtube.com/eastafricasafaritours'
     ],
     priceRange: '$$$',

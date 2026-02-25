@@ -20,7 +20,7 @@ import type { TeamMember, CompanyStat, Testimonial } from './types';
 // Enhanced metadata for SEO
 export const metadata: Metadata = {
   title: 'About RAYCARZ Tours & Safaris | Expert Safari Guides & Sustainable Tourism',
-  description: 'Learn about RAYCARZ Tours & Safaris - expert guides, sustainable tourism, and unforgettable wildlife experiences in Kenya, Tanzania, Uganda, and Rwanda. 20+ years of experience.',
+  description: 'Learn about RAYCARZ Tours & Safaris - expert guides, sustainable tourism, and unforgettable wildlife experiences in Kenya, Tanzania, Uganda, and Rwanda. 5+ years of experience.',
   keywords: [
     'about safari company',
     'RAYCARZ tours and safaris',
@@ -60,7 +60,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'About RAYCARZ Tours & Safaris',
-    description: 'Expert safari guides and sustainable tourism in East Africa. 20+ years of experience.',
+    description: 'Expert safari guides and sustainable tourism in East Africa. 5+ years of experience.',
     images: ['https://raycarz.com/about-twitter.jpg'],
     creator: '@raycarzsafaris',
     site: '@raycarzsafaris',

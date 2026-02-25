@@ -29,7 +29,7 @@ curl -X POST http://localhost:3000/api/book \
   -d '{
     "name": "John Doe",
     "email": "test@example.com",
-    "phone": "+1234567890",
+    "phone": "+254787644555",
     "country": "United States",
     "tourTitle": "Big Five Safari Kenya",
     "numberOfGuests": 2,

@@ -96,7 +96,7 @@ export default function AboutClient({ teamMembers, stats, testimonials }: AboutC
     { year: 2015, title: 'Sustainability Award', description: 'Received Eco-Tourism Kenya Gold Award' },
     { year: 2018, title: '10,000 Happy Customers', description: 'Celebrated major milestone with community project' },
     { year: 2020, title: 'Carbon Neutral Certification', description: 'Became first carbon-neutral safari company in East Africa' },
-    { year: 2023, title: '20th Anniversary', description: 'Celebrated 20 years of excellence in safari tourism' },
+    { year: 2023, title: '5th Anniversary', description: 'Celebrated 5 years of excellence in safari tourism' },
   ];
 
   // Filter milestones by year
@@ -952,9 +952,9 @@ export default function AboutClient({ teamMembers, stats, testimonials }: AboutC
               <Mail className="w-4 h-4 mr-2" />
               info@raycarz.com
             </a>
-            <a href="tel:+254726665100" className="flex items-center hover:underline">
+            <a href="tel:+254787644555" className="flex items-center hover:underline">
               <Phone className="w-4 h-4 mr-2" />
-              +254 726 665 100
+              +254787644555
             </a>
             <span className="flex items-center">
               <MapPin className="w-4 h-4 mr-2" />

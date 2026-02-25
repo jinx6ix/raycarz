@@ -426,9 +426,9 @@ export default function DestinationsClient({
 
           {/* Quick Contact Options */}
           <div className="flex flex-wrap justify-center gap-4 pt-4 text-sm text-gray-600">
-            <a href="tel:+1234567890" className="flex items-center hover:text-amber-600">
+            <a href="tel:+254787644555" className="flex items-center hover:text-amber-600">
               <Phone className="w-4 h-4 mr-2" />
-              +1 (234) 567-890
+              +254787644555
             </a>
             <a href="mailto:info@raycarz.com" className="flex items-center hover:text-amber-600">
               <Mail className="w-4 h-4 mr-2" />

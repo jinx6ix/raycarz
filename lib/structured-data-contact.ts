@@ -48,7 +48,7 @@ export function generateContactStructuredData(office: OfficeLocation) {
         ],
         sameAs: [
           'https://facebook.com/raycarzsafaris',
-          'https://instagram.com/raycarzsafaris',
+          'https://www.instagram.com/raycarztourandsafaris?igsh=MWd6MXVqY2cxcG51bw==',
           'https://twitter.com/raycarzsafaris',
           'https://linkedin.com/company/raycarzsafaris',
           'https://youtube.com/raycarzsafaris',
