@@ -2,9 +2,9 @@
 [
     {
       "id": "james-kipchoge",
-      "name": "James Kipchoge",
+      "name": "John Ruciu",
       "role": "Founder & CEO",
-      "bio": "With 25 years of safari experience, James founded RAYCARZ Tours & Safaris to provide exceptional wildlife experiences while supporting conservation and local communities.",
+      "bio": "With 25 years of safari experience, John founded RAYCARZ Tours & Safaris to provide exceptional wildlife experiences while supporting conservation and local communities.",
       "department": "leadership",
       "expertise": ["Safari Planning", "Conservation", "Community Development"],
       "languages": ["English", "Swahili", "Maasai"],
@@ -16,9 +16,9 @@
     },
     {
       "id": "sarah-mwangi",
-      "name": "Dr. Sarah Mwangi",
+      "name": "Nancy Wambui",
       "role": "Conservation Director",
-      "bio": "A wildlife biologist with a PhD in Conservation, Sarah ensures all our operations align with the highest environmental and ethical standards.",
+      "bio": "A wildlife biologist with a PhD in Conservation, Nancy ensures all our operations align with the highest environmental and ethical standards.",
       "department": "conservation",
       "expertise": ["Wildlife Research", "Conservation", "Environmental Policy"],
       "languages": ["English", "Swahili", "French"],

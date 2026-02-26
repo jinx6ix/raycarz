@@ -664,7 +664,7 @@ export default function AboutClient({ teamMembers, stats, testimonials }: AboutC
             className="text-center mt-8"
           >
             <p className="text-gray-600 text-lg">
-              Plus {stats.teamMembers - (teamMembers?.length || 0)} expert guides and support staff across East Africa
+              Plus {stats.teamMembers - (teamMembers?.length || 5)} expert guides and support staff across East Africa
             </p>
           </motion.div>
         </div>
