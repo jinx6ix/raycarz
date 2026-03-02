@@ -952,9 +952,9 @@ export default function AboutClient({ teamMembers, stats, testimonials }: AboutC
               <Mail className="w-4 h-4 mr-2" />
               info@raycarz.com
             </a>
-            <a href="tel:+254787644555" className="flex items-center hover:underline">
+            <a href="tel:+254703233003" className="flex items-center hover:underline">
               <Phone className="w-4 h-4 mr-2" />
-              +254787644555
+              +254703233003
             </a>
             <span className="flex items-center">
               <MapPin className="w-4 h-4 mr-2" />

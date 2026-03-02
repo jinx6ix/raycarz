@@ -216,7 +216,7 @@ export default function TourBookingForm({ tour }: TourBookingFormProps) {
                   value={formData.phone}
                   onChange={handleInputChange}
                   className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-amber-500 focus:border-transparent text-sm"
-                  placeholder="+254787644555"
+                  placeholder="+254703233003"
                 />
                 {errors.phone && (
                   <p className="text-red-500 text-xs mt-1">{errors.phone}</p>
@@ -371,7 +371,7 @@ export default function TourBookingForm({ tour }: TourBookingFormProps) {
         {/* Quick Contact */}
         <div className="pt-2 border-t">
           <a
-            href={`https://wa.me/+254787644555?text=${encodeURIComponent(
+            href={`https://wa.me/+254703233003?text=${encodeURIComponent(
               `Hi, I'm interested in the ${tour.title} tour`
             )}`}
             target="_blank"

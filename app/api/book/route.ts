@@ -53,7 +53,7 @@ export async function POST(request: NextRequest) {
     const adminEmail = process.env.HOST_EMAIL || process.env.SMTP_USER;
 
     // WhatsApp links
-    const adminWhatsApp = 'https://wa.me/+254787644555'; // Update with your business number
+    const adminWhatsApp = 'https://wa.me/+254703233003'; // Update with your business number
     const customerPhone = bookingData.phone.replace(/[^0-9]/g, '').replace(/^0/, '254');
     const customerWhatsApp = `https://wa.me/${customerPhone}`;
 
@@ -134,7 +134,7 @@ export async function POST(request: NextRequest) {
     <div class="footer">
       <p style="margin: 0;"><strong>RAYCARZ Tours & Safaris</strong></p>
       <p style="margin: 8px 0 0; opacity: 0.8;">
-        <a href="tel:+254787644555">+254787644555</a> | 
+        <a href="tel:+254703233003">+254703233003</a> | 
         <a href="mailto:info@raycarz.com">info@raycarz.com</a>
       </p>
       <p style="margin: 8px 0 0; opacity: 0.7;">© 2025 RAYCARZ Tours & Safaris | All Rights Reserved</p>

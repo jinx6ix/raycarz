@@ -811,8 +811,8 @@ export default function DestinationClient({
                 </Button>
                 <div className="text-xs text-center text-gray-500">
                   <Phone className="w-3 h-3 inline mr-1" />
-                  <a href="tel:+254787644555" className="hover:text-amber-600">
-                   +254787644555
+                  <a href="tel:+254703233003" className="hover:text-amber-600">
+                   +254703233003
                   </a>
                 </div>
               </CardContent>
