@@ -956,6 +956,10 @@ export default function AboutClient({ teamMembers, stats, testimonials }: AboutC
               <Phone className="w-4 h-4 mr-2" />
               +254703233003
             </a>
+            <a href="tel:+254787644555" className="flex items-center hover:underline">
+              <Phone className="w-4 h-4 mr-2" />
+              +254787644555
+            </a>
             <span className="flex items-center">
               <MapPin className="w-4 h-4 mr-2" />
               Nairobi, Kenya

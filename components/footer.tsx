@@ -23,6 +23,9 @@ export default function Footer() {
                 <strong>Phone:</strong> +254703233003
               </p>
               <p className="text-sm text-gray-400">
+                <strong>Phone:</strong> +254787644555
+              </p>
+              <p className="text-sm text-gray-400">
                 <strong>Location:</strong> Nairobi, Kenya
               </p>
             </div>
