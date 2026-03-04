@@ -79,6 +79,16 @@ export default function RootLayout({
         <link rel="icon" href="/favicon.ico" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
       </head>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-5YHWZ16YMR"></script>
+      <script>
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments)};
+          gtag('js', new Date());
+          gtag('config', 'G-5YHWZ16YMR');
+        `}
+      </script>
+
       <body className="font-sans antialiased flex flex-col min-h-screen">
         <Header />
         <main className="flex-1">{children}</main>
