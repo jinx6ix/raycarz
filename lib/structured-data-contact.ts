@@ -7,10 +7,10 @@ export function generateContactStructuredData(office: OfficeLocation) {
     '@graph': [
       {
         '@type': 'Organization',
-        '@id': 'https://raycarz.com/contact#organization',
+        '@id': 'https://www.raycarz.com/contact#organization',
         name: 'RAYCARZ Tours & Safaris',
-        url: 'https://raycarz.com',
-        logo: 'https://raycarz.com/logo.png',
+        url: 'https://www.raycarz.com',
+        logo: 'https://www.raycarz.com/logo.png',
         description: 'Kenya-based safari experts offering unforgettable wildlife experiences across East Africa.',
         address: {
           '@type': 'PostalAddress',
@@ -57,21 +57,21 @@ export function generateContactStructuredData(office: OfficeLocation) {
       },
       {
         '@type': 'ContactPage',
-        '@id': 'https://raycarz.com/contact#contactpage',
-        url: 'https://raycarz.com/contact',
+        '@id': 'https://www.raycarz.com/contact#contactpage',
+        url: 'https://www.raycarz.com/contact',
         name: 'Contact RAYCARZ Tours & Safaris',
         description: 'Get in touch with our Kenya-based safari experts for personalized tour planning and booking assistance.',
         isPartOf: {
           '@type': 'WebSite',
-          '@id': 'https://raycarz.com',
+          '@id': 'https://www.raycarz.com',
         },
         about: {
           '@type': 'Organization',
-          '@id': 'https://raycarz.com/contact#organization',
+          '@id': 'https://www.raycarz.com/contact#organization',
         },
         mainEntity: {
           '@type': 'Organization',
-          '@id': 'https://raycarz.com/contact#organization',
+          '@id': 'https://www.raycarz.com/contact#organization',
         },
       },
       {
@@ -81,19 +81,19 @@ export function generateContactStructuredData(office: OfficeLocation) {
             '@type': 'ListItem',
             position: 1,
             name: 'Home',
-            item: 'https://raycarz.com',
+            item: 'https://www.raycarz.com',
           },
           {
             '@type': 'ListItem',
             position: 2,
             name: 'Contact',
-            item: 'https://raycarz.com/contact',
+            item: 'https://www.raycarz.com/contact',
           },
         ],
       },
       {
         '@type': 'Place',
-        '@id': 'https://raycarz.com/contact#office',
+        '@id': 'https://www.raycarz.com/contact#office',
         name: `${office.city} Office`,
         address: {
           '@type': 'PostalAddress',
@@ -129,7 +129,7 @@ export function generateBreadcrumbStructuredData(items: { name: string; url: str
       '@type': 'ListItem',
       position: index + 1,
       name: item.name,
-      item: `https://raycarz.com${item.url}`,
+      item: `https://www.raycarz.com${item.url}`,
     })),
   };
 }

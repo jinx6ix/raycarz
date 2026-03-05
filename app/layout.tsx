@@ -25,13 +25,13 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://raycarz.com',
+    url: 'https://www.raycarz.com',
     siteName: 'RAYCARZ Tours & Safaris',
     title: 'Big Five Safari Kenya & Tanzania Tours | East Africa Wildlife Safaris | RAYCARZ',
     description: 'Experience the ultimate Big 5 Safari in Kenya, Tanzania, Uganda, and Rwanda. Book affordable wildlife tours, wildebeest migration, and gorilla trekking adventures with RAYCARZ expert guides.',
     images: [
       {
-        url: 'https://raycarz.com/logo-remove-background.com.png',
+        url: 'https://www.raycarz.com/logo-remove-background.com.png',
         width: 1200,
         height: 630,
         alt: 'RAYCARZ Big Five Safari Kenya',
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     site: '@RAYCARZSafaris',
   },
   alternates: {
-    canonical: 'https://raycarz.com',
+    canonical: 'https://www.raycarz.com',
   },
   verification: {
     google: 'z9vZ7cXUSL4_AmLJqmOiaRC5VROLggVAci1ptZycdwU',

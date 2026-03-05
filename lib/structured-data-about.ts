@@ -32,10 +32,10 @@ export function generateAboutStructuredData(
     '@graph': [
       {
         '@type': 'Organization',
-        '@id': 'https://raycarz.com/about#organization',
+        '@id': 'https://www.raycarz.com/about#organization',
         name: 'RAYCARZ Tours & Safaris',
-        url: 'https://raycarz.com',
-        logo: 'https://raycarz.com/logo.png',
+        url: 'https://www.raycarz.com',
+        logo: 'https://www.raycarz.com/logo.png',
         description: 'Creating unforgettable wildlife experiences while supporting local communities and conservation efforts in East Africa.',
         foundingDate: '2003',
         founders: [
@@ -93,33 +93,33 @@ export function generateAboutStructuredData(
             '@type': 'ListItem',
             position: 1,
             name: 'Home',
-            item: 'https://raycarz.com',
+            item: 'https://www.raycarz.com',
           },
           {
             '@type': 'ListItem',
             position: 2,
             name: 'About',
-            item: 'https://raycarz.com/about',
+            item: 'https://www.raycarz.com/about',
           },
         ],
       },
       {
         '@type': 'WebPage',
-        '@id': 'https://raycarz.com/about#webpage',
-        url: 'https://raycarz.com/about',
+        '@id': 'https://www.raycarz.com/about#webpage',
+        url: 'https://www.raycarz.com/about',
         name: 'About RAYCARZ Tours & Safaris',
         description: 'Learn about RAYCARZ Tours & Safaris - expert guides, sustainable tourism, and unforgettable wildlife experiences in East Africa.',
         isPartOf: {
           '@type': 'WebSite',
-          '@id': 'https://raycarz.com',
+          '@id': 'https://www.raycarz.com',
         },
         about: {
           '@type': 'Organization',
-          '@id': 'https://raycarz.com/about#organization',
+          '@id': 'https://www.raycarz.com/about#organization',
         },
         mainEntity: {
           '@type': 'Organization',
-          '@id': 'https://raycarz.com/about#organization',
+          '@id': 'https://www.raycarz.com/about#organization',
         },
       },
     ],
@@ -134,7 +134,7 @@ export function generateBreadcrumbStructuredData(items: { name: string; url: str
       '@type': 'ListItem',
       position: index + 1,
       name: item.name,
-      item: `https://raycarz.com${item.url}`,
+      item: `https://www.raycarz.com${item.url}`,
     })),
   };
 }
@@ -143,7 +143,7 @@ export function generateTeamMemberStructuredData(member: TeamMember) {
   return {
     '@context': 'https://schema.org',
     '@type': 'Person',
-    '@id': `https://raycarz.com/about#${member.id}`,
+    '@id': `https://www.raycarz.com/about#${member.id}`,
     name: member.name,
     jobTitle: member.role,
     description: member.bio,

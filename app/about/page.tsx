@@ -44,11 +44,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'About RAYCARZ Tours & Safaris | Expert Safari Guides & Sustainable Tourism',
     description: 'Discover our story, mission, and commitment to sustainable tourism. Expert guides, conservation efforts, and unforgettable wildlife experiences.',
-    url: 'https://raycarz.com/about',
+    url: 'https://www.raycarz.com/about',
     siteName: 'RAYCARZ Tours & Safaris',
     images: [
       {
-        url: 'https://raycarz.com/about-hero.jpg',
+        url: 'https://www.raycarz.com/about-hero.jpg',
         width: 1200,
         height: 630,
         alt: 'RAYCARZ Tours & Safaris - About Us',
@@ -61,7 +61,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'About RAYCARZ Tours & Safaris',
     description: 'Expert safari guides and sustainable tourism in East Africa. 5+ years of experience.',
-    images: ['https://raycarz.com/about-twitter.jpg'],
+    images: ['https://www.raycarz.com/about-twitter.jpg'],
     creator: '@raycarzsafaris',
     site: '@raycarzsafaris',
   },
@@ -77,11 +77,11 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: 'https://raycarz.com/about',
+    canonical: 'https://www.raycarz.com/about',
     languages: {
-      'en-US': 'https://raycarz.com/about',
-      'fr': 'https://raycarz.com/about',
-      'de': 'https://raycarz.com/about',
+      'en-US': 'https://www.raycarz.com/about',
+      'fr': 'https://www.raycarz.com/about',
+      'de': 'https://www.raycarz.com/about',
     },
   },
   category: 'About Us',

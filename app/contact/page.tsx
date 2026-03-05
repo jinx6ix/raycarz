@@ -34,11 +34,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Contact RAYCARZ Tours & Safaris | Kenya Safari Experts',
     description: "Get in touch with our Kenya-based safari team. We're here to help plan your perfect African adventure.",
-    url: 'https://raycarz.com/contact',
+    url: 'https://www.raycarz.com/contact',
     siteName: 'RAYCARZ Tours & Safaris',
     images: [
       {
-        url: 'https://raycarz.com/contact-hero.jpg',
+        url: 'https://www.raycarz.com/contact-hero.jpg',
         width: 1200,
         height: 630,
         alt: 'Contact RAYCARZ Tours & Safaris - Kenya Safari Experts',
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Contact RAYCARZ Tours & Safaris',
     description: 'Contact our Kenya-based safari experts for personalized tour planning.',
-    images: ['https://raycarz.com/contact-twitter.jpg'],
+    images: ['https://www.raycarz.com/contact-twitter.jpg'],
     creator: '@raycarzsafaris',
     site: '@raycarzsafaris',
   },
@@ -67,11 +67,11 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: 'https://raycarz.com/contact',
+    canonical: 'https://www.raycarz.com/contact',
     languages: {
-      'en-US': 'https://raycarz.com/contact',
-      'fr': 'https://raycarz.com/contact',
-      'de': 'https://raycarz.com/contact',
+      'en-US': 'https://www.raycarz.com/contact',
+      'fr': 'https://www.raycarz.com/contact',
+      'de': 'https://www.raycarz.com/contact',
     },
   },
   category: 'Contact',
